@@ -1,0 +1,86 @@
+.naver{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.naver h1{
+    color: #23BE0A;
+    cursor: pointer;
+}
+.naverMenu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 18px;
+}
+
+.naverMenu li a{
+    padding: 10px 30px;
+    cursor: pointer;
+    
+}
+.naverMenu li a{
+    padding: 10px 30px;
+    cursor: pointer;
+    
+}
+.active{
+    background-color: transparent;
+    color: #23BE0A;
+    border: 1px solid #23BE0A;
+    border-radius: 4px;
+}
+
+@media(max-width: 750px) {
+    .naver {
+        margin-top: 30px !important;
+    }
+    .naverMenu {
+        display: block !important;
+    }
+
+    
+    .navul {
+        position: fixed ;
+        background-color: #23BE0A;
+        height: 40vh;
+        width: 200px;
+        top: 0;
+        right: -250px; 
+        text-align: left;
+        z-index: 2;
+        transition: right 0.3s ease; 
+        border-bottom-left-radius: 30px;
+    }
+    
+    .navul.show {
+        right: 0px; 
+    }
+    .naverMenu li {text-align: center; margin-top: 30px;}
+    .naverMenu li a {
+        color: #fff;
+    }
+    .icon {
+        color: green;
+        margin: 10px;
+        display: block !important;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .icon1{
+        color: rgb(0, 0, 0);
+        margin: 10px;
+        display: block !important;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+.icon ,.icon1{
+    display: none;
+}
