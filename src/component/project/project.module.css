@@ -14,3 +14,13 @@
     gap: 30px;
     row-gap: 50px;
 }
+@media(max-width: 980px) {
+    .disList{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .project h1{
+        text-align: center;
+    }
+}

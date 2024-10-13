@@ -17,3 +17,9 @@
       text-decoration: none;
       color: black;
     }
+    @media (max-width:750px){
+      .app{
+        margin-left: 170px;
+       
+      }
+    }

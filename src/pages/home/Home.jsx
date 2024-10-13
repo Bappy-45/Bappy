@@ -16,7 +16,7 @@ function Home() {
     }, 5000);
   },[])
   return (
-    <div>
+    <div >
       <Header heroData={heroData[hero]} setHero={setHero} 
        hero={hero} />
       <About/>

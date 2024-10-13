@@ -26,7 +26,7 @@ function Naver() {
                 <RxCross1 onClick={hideMenu} className={style.icon1} />
                 <ul className={style.naverMenu}>
                     
-                <Link to={"/"}>     <li><a onClick={() => { setMenu("Home"); hideMenu(); }} className={menu === "Home" ? style.active : ""}>Home</a></li></Link> 
+                <Link to={"/"}> <li><a onClick={() => { setMenu("Home"); hideMenu(); }} className={menu === "Home" ? style.active : ""}>Home</a></li></Link> 
                     
                     
                         <li><a href='#about' onClick={() => { setMenu("About Me"); hideMenu(); }} className={menu === "About Me" ? style.active : ""}>About Me</a></li>
