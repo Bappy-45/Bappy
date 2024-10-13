@@ -4,6 +4,7 @@ import style from './footer.module.css'
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 function Footer() {
     const handleCall = () => {
@@ -31,9 +32,9 @@ function Footer() {
         <div className={style.footerC}>
             <h2></h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#project">My projects</a></li>
+                <li><Link to={"Bappy/"}>Home</Link></li>
+                <li><Link to={"About/"}>About</Link></li>
+                <li><Link to={"Project"} >My projects</Link></li>
                 
             </ul>
         </div>

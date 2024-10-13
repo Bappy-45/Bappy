@@ -19,7 +19,7 @@ function Header({heroData,setHero,hero}) {
         <div className={style.btn} onClick={openWhatsApp}>
         <div><FaClone className={style.icon}/></div>
         <div className={style.btnn} >
-          Heir me
+          Hair me
         </div>
         </div>
       </div>
